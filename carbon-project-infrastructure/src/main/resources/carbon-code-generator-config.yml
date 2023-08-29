@@ -5,5 +5,5 @@ databaseGenerator:
   author: kaki
   tables: user,orders
   packageConfig:
-    javaTargetProject: /Users/kaki/IdeaProjects/carbon-mybatis-generator/carbon-mybatis-generator-plugin/src/test/java/com/carbon
+    javaTargetProject: /Users/kaki/IdeaProjects/carbon-mybatis-generator/carbon-mybatis-generator-plugin/src/test/java
     xmlTargetProject: /Users/kaki/IdeaProjects/carbon-mybatis-generator/carbon-mybatis-generator-plugin/src/test/java/resources/mapper
