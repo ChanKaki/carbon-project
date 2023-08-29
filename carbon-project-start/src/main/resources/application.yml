@@ -1,0 +1,13 @@
+server:
+  port: ${serverPort}
+  servlet:
+    context-path: /${contextPath}
+
+spring:
+  application:
+    name: ${rootArtifactId}-service
+  profiles:
+    active: local
+logging:
+  config:
+    local-path:  ${user.home}/logs
