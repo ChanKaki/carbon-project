@@ -39,7 +39,7 @@ https://maven.apache.org/archetype/maven-archetype-plugin/index.html
 ## 最终使用
 
 ```bash
-mvn archetype:generate -DarchetypeGroupId=com.carbon.archetype -DarchetypeArtifactId=carbon-project-archetype -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.carbon -DartifactId=demo-project -DappName=TestDemo -DcontextPath=test -DserverPort=2020
+mvn archetype:generate -DarchetypeGroupId=com.carbon.archetype -DarchetypeArtifactId=carbon-project-archetype -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.carbon -DartifactId=demo-project -Dpackage=com.carbon.demo -DappName=TestDemo -DcontextPath=test -DserverPort=2020
 ```
 
 参数解释：
@@ -55,6 +55,8 @@ mvn archetype:generate -DarchetypeGroupId=com.carbon.archetype -DarchetypeArtifa
   + 你所要生成的新项目的groupId
 + -DartifactId
   + 你所要生成的新项目的artifactId
++ -Dpackage
+  + 基础包包名
 + -DappName
   + archetype.properties 中定义的appName的值,也是对应我们的启动类前缀
 + -DcontextPath
