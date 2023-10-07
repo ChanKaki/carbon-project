@@ -1,1 +1,0 @@
-package basePackage.dto.res;
